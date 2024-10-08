@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.processed-box {
+	background-color: #ececec;
+  padding: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.error {
+	display: inline-block;
+	background-color: #f1352e;
+	color: #fff;
+	border-radius: 3px;
+	padding: 4px 7px;
+	margin-top: 8px;
+	margin-bottom: 0;
+	font-size: 14px;
+}
